@@ -1,0 +1,78 @@
+body {
+  background-color: #2a2b2dff;
+}
+
+.parent-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
+  /* grid-template-areas:
+    "header header"
+    "buttons name"
+    "footer footer"; */
+}
+.header {
+  /* grid-area: header; */
+  grid-column: 1 / -1;
+  /* background-color: aquamarine; */
+  color: #d7c49eff;
+}
+
+.button-containers {
+  /* grid-area: name; */
+  grid-column: 1/1;
+  grid-row: 2/4;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  /* background-color: black; */
+}
+
+.btn-1 {
+  /* padding: 12px 28px; */
+  grid-column: 1/1;
+  grid-row: 1;
+  width: 100px;
+  height: 50px;
+}
+
+.btn-2 {
+  grid-column: 1/1;
+  grid-row: 2;
+  width: 100px;
+  height: 50px;
+}
+.btn-3 {
+  grid-column: 1/1;
+  grid-row: 3;
+  height: 50px;
+  width: 100px;
+}
+.btn-4 {
+  grid-column: 1/1;
+  grid-row: 4;
+  height: 50px;
+  width: 100px;
+}
+.btn-5 {
+  grid-column: 1/1;
+  grid-row: 5;
+  height: 50px;
+  width: 100px;
+}
+
+.name-container {
+  /* grid-area: buttons; */
+  grid-column: 2/3;
+  color: #d7c49eff;
+
+  /* background-color: burlywood; */
+}
+
+.footer {
+  /* grid-area: footer; */
+  grid-column: 1 / -1;
+  color: #d7c49eff;
+  /* background-color: aquamarine; */
+}
