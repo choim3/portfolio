@@ -20,17 +20,14 @@ body {
 }
 
 .button-containers {
-  /* grid-area: name; */
   grid-column: 1/1;
   grid-row: 2/4;
   display: grid;
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
-  /* background-color: black; */
 }
 
 .btn-1 {
-  /* padding: 12px 28px; */
   grid-column: 1/1;
   grid-row: 1;
   width: 100px;
@@ -63,16 +60,11 @@ body {
 }
 
 .name-container {
-  /* grid-area: buttons; */
   grid-column: 2/3;
   color: #d7c49eff;
-
-  /* background-color: burlywood; */
 }
 
 .footer {
-  /* grid-area: footer; */
   grid-column: 1 / -1;
   color: #d7c49eff;
-  /* background-color: aquamarine; */
 }
