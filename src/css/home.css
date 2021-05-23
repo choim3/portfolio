@@ -18,9 +18,10 @@ body {
   grid-column: 1 / -1;
   /* background-color: aquamarine; */
   color: #d7c49eff;
+  font-family: "Staatliches", cursive;
 }
 
-.button-containers {
+.sidebar {
   grid-column: 1/1;
   grid-row: 2/4;
   display: grid;
@@ -28,7 +29,7 @@ body {
   grid-template-rows: subgrid;
 }
 
-.btn-1 {
+.linkedin {
   grid-column: 1/1;
   grid-row: 1;
   width: 100px;
@@ -36,28 +37,28 @@ body {
   background-color: #0077b5;
 }
 
-.btn-2 {
+.github {
   grid-column: 1/1;
   grid-row: 2;
   width: 100px;
   height: 50px;
   background-color: #333;
 }
-.btn-3 {
+.medium {
   grid-column: 1/1;
   grid-row: 3;
   height: 50px;
   width: 100px;
   background-color: #fcf6f5ff;
 }
-.btn-4 {
+.resume {
   grid-column: 1/1;
   grid-row: 4;
   height: 50px;
   width: 100px;
   background-color: #603f83ff;
 }
-.btn-5 {
+.contact {
   grid-column: 1/1;
   grid-row: 5;
   height: 50px;
@@ -68,9 +69,28 @@ body {
 .name-container {
   grid-column: 2/3;
   color: #d7c49eff;
+  font-family: "Vollkorn", serif;
+  font-size: 30px;
 }
 
 .footer {
   grid-column: 1 / -1;
   color: #d7c49eff;
+  font-family: "Inconsolata", monospace;
+}
+
+.project-link {
+  font-family: "Inconsolata", monospace;
+  background-color: #22262a;
+  outline-style: solid;
+  outline-color: white;
+  color: white;
+
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: white;
+  outline-style: solid;
+  color: black;
 }
