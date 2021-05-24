@@ -3,7 +3,6 @@ import ".././css/home.css";
 export default function Home() {
   return (
     <div className=" parent-grid">
-      <header className="header"> Matthew Choi </header>
       <div className="name-container">
         <h1 className="name"> Matthew Choi </h1>
         <a href="/projects" className="project-link slide_down">

@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div>
-      <h1>hello world</h1>
+      <header className="header"> Matthew Choi </header>
     </div>
   );
 }
