@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Sidebar from "./sidebar";
+
 import ".././css/home.css";
 export default function Home() {
   return (
@@ -9,24 +11,7 @@ export default function Home() {
           View Projects
         </a>
       </div>
-      <div className="sidebar">
-        <a className="linkedin" target="_blank">
-          LinkedIn
-        </a>
-        <a className="github" target="_blank">
-          Github
-        </a>
-        <a className="medium" target="_blank">
-          Medium
-        </a>
-        <a className="contact" target="_blank">
-          Contact
-        </a>
-        <a className="resume" target="_blank">
-          Resume
-        </a>
-      </div>
-      <footer className="footer">foot</footer>
+      <Sidebar />
     </div>
   );
 }
