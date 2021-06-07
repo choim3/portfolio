@@ -30,6 +30,10 @@ body {
   display: flex;
 }
 
+.flexbox-container {
+  display: flex;
+}
+
 .linkedin {
   /* grid-column: 1/1;
   grid-row: 1; */

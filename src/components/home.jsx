@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Sidebar from "./sidebar";
-
 import ".././css/home.css";
+
 export default function Home() {
   return (
     <div className=" parent-grid">
